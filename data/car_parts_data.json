@@ -1,0 +1,302 @@
+[
+    {
+        "part_stock": 100001,
+        "car_id": 1,
+        "part_name": "Engine",
+        "number_of_pieces": 1
+    },
+    {
+        "part_stock": 100002,
+        "car_id": 2,
+        "part_name": "Transmission",
+        "number_of_pieces": 1
+    },
+    {
+        "part_stock": 100003,
+        "car_id": 3,
+        "part_name": "Brake Pads",
+        "number_of_pieces": 4
+    },
+    {
+        "part_stock": 100004,
+        "car_id": 4,
+        "part_name": "Air Filter",
+        "number_of_pieces": 1
+    },
+    {
+        "part_stock": 100005,
+        "car_id": 5,
+        "part_name": "Spark Plugs",
+        "number_of_pieces": 4
+    },
+    {
+        "part_stock": 100006,
+        "car_id": 6,
+        "part_name": "Battery",
+        "number_of_pieces": 1
+    },
+    {
+        "part_stock": 100007,
+        "car_id": 7,
+        "part_name": "Alternator",
+        "number_of_pieces": 1
+    },
+    {
+        "part_stock": 100008,
+        "car_id": 8,
+        "part_name": "Radiator",
+        "number_of_pieces": 1
+    },
+    {
+        "part_stock": 100009,
+        "car_id": 9,
+        "part_name": "Fuel Pump",
+        "number_of_pieces": 1
+    },
+    {
+        "part_stock": 100010,
+        "car_id": 10,
+        "part_name": "Oil Filter",
+        "number_of_pieces": 1
+    },
+    {
+        "part_stock": 100011,
+        "car_id": 1,
+        "part_name": "Windshield Wipers",
+        "number_of_pieces": 2
+    },
+    {
+        "part_stock": 100012,
+        "car_id": 2,
+        "part_name": "Headlights",
+        "number_of_pieces": 2
+    },
+    {
+        "part_stock": 100013,
+        "car_id": 3,
+        "part_name": "Taillights",
+        "number_of_pieces": 2
+    },
+    {
+        "part_stock": 100014,
+        "car_id": 4,
+        "part_name": "Starter Motor",
+        "number_of_pieces": 1
+    },
+    {
+        "part_stock": 100015,
+        "car_id": 5,
+        "part_name": "Brake Discs",
+        "number_of_pieces": 4
+    },
+    {
+        "part_stock": 100016,
+        "car_id": 6,
+        "part_name": "Suspension",
+        "number_of_pieces": 2
+    },
+    {
+        "part_stock": 100017,
+        "car_id": 7,
+        "part_name": "Catalytic Converter",
+        "number_of_pieces": 1
+    },
+    {
+        "part_stock": 100018,
+        "car_id": 8,
+        "part_name": "Exhaust",
+        "number_of_pieces": 1
+    },
+    {
+        "part_stock": 100019,
+        "car_id": 9,
+        "part_name": "Muffler",
+        "number_of_pieces": 1
+    },
+    {
+        "part_stock": 100020,
+        "car_id": 10,
+        "part_name": "Shock Absorbers",
+        "number_of_pieces": 4
+    },
+    {
+        "part_stock": 100021,
+        "car_id": 1,
+        "part_name": "Wheel Bearings",
+        "number_of_pieces": 4
+    },
+    {
+        "part_stock": 100022,
+        "car_id": 2,
+        "part_name": "Drive Belt",
+        "number_of_pieces": 1
+    },
+    {
+        "part_stock": 100023,
+        "car_id": 3,
+        "part_name": "Timing Belt",
+        "number_of_pieces": 1
+    },
+    {
+        "part_stock": 100024,
+        "car_id": 4,
+        "part_name": "Water Pump",
+        "number_of_pieces": 1
+    },
+    {
+        "part_stock": 100025,
+        "car_id": 5,
+        "part_name": "Fuel Filter",
+        "number_of_pieces": 1
+    },
+    {
+        "part_stock": 100026,
+        "car_id": 6,
+        "part_name": "Control Arms",
+        "number_of_pieces": 2
+    },
+    {
+        "part_stock": 100027,
+        "car_id": 7,
+        "part_name": "Ball Joints",
+        "number_of_pieces": 2
+    },
+    {
+        "part_stock": 100028,
+        "car_id": 8,
+        "part_name": "Tie Rods",
+        "number_of_pieces": 2
+    },
+    {
+        "part_stock": 100029,
+        "car_id": 9,
+        "part_name": "CV Joints",
+        "number_of_pieces": 4
+    },
+    {
+        "part_stock": 100030,
+        "car_id": 10,
+        "part_name": "Axle Shafts",
+        "number_of_pieces": 2
+    },
+    {
+        "part_stock": 100031,
+        "car_id": 1,
+        "part_name": "Radiator Hoses",
+        "number_of_pieces": 2
+    },
+    {
+        "part_stock": 100032,
+        "car_id": 2,
+        "part_name": "Brake Lines",
+        "number_of_pieces": 4
+    },
+    {
+        "part_stock": 100033,
+        "car_id": 3,
+        "part_name": "Heater Core",
+        "number_of_pieces": 1
+    },
+    {
+        "part_stock": 100034,
+        "car_id": 4,
+        "part_name": "Blower Motor",
+        "number_of_pieces": 1
+    },
+    {
+        "part_stock": 100035,
+        "car_id": 5,
+        "part_name": "A/C Compressor",
+        "number_of_pieces": 1
+    },
+    {
+        "part_stock": 100036,
+        "car_id": 6,
+        "part_name": "Condenser",
+        "number_of_pieces": 1
+    },
+    {
+        "part_stock": 100037,
+        "car_id": 7,
+        "part_name": "Evaporator",
+        "number_of_pieces": 1
+    },
+    {
+        "part_stock": 100038,
+        "car_id": 8,
+        "part_name": "Expansion Valve",
+        "number_of_pieces": 1
+    },
+    {
+        "part_stock": 100039,
+        "car_id": 9,
+        "part_name": "Orifice Tube",
+        "number_of_pieces": 1
+    },
+    {
+        "part_stock": 100040,
+        "car_id": 10,
+        "part_name": "Receiver Drier",
+        "number_of_pieces": 1
+    },
+    {
+        "part_stock": 100041,
+        "car_id": 1,
+        "part_name": "Fuel Injectors",
+        "number_of_pieces": 4
+    },
+    {
+        "part_stock": 100042,
+        "car_id": 2,
+        "part_name": "Throttle Body",
+        "number_of_pieces": 1
+    },
+    {
+        "part_stock": 100043,
+        "car_id": 3,
+        "part_name": "Mass Air Flow Sensor",
+        "number_of_pieces": 1
+    },
+    {
+        "part_stock": 100044,
+        "car_id": 4,
+        "part_name": "Oxygen Sensor",
+        "number_of_pieces": 2
+    },
+    {
+        "part_stock": 100045,
+        "car_id": 5,
+        "part_name": "MAP Sensor",
+        "number_of_pieces": 1
+    },
+    {
+        "part_stock": 100046,
+        "car_id": 6,
+        "part_name": "Coolant Temperature Sensor",
+        "number_of_pieces": 1
+    },
+    {
+        "part_stock": 100047,
+        "car_id": 7,
+        "part_name": "Knock Sensor",
+        "number_of_pieces": 1
+    },
+    {
+        "part_stock": 100048,
+        "car_id": 8,
+        "part_name": "Camshaft Position Sensor",
+        "number_of_pieces": 1
+    },
+    {
+        "part_stock": 100049,
+        "car_id": 9,
+        "part_name": "Crankshaft Position Sensor",
+        "number_of_pieces": 1
+    },
+    {
+        "part_stock": 100050,
+        "car_id": 10,
+        "part_name": "Fuel Rail",
+        "number_of_pieces": 1
+    }
+]
