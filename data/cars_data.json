@@ -5,8 +5,8 @@
       "model": "Corolla",
       "year": 2020,
       "vin": "1HGCM82633A123456",
-      "milage_kms": 15000,
-      "milage_miles": 9320,
+      "mileage_kms": 15000,
+      "mileage_miles": 9320,
       "number_of_parts": 0
     },
     {
@@ -15,8 +15,8 @@
       "model": "Civic",
       "year": 2019,
       "vin": "2HGCM82633A654321",
-      "milage_kms": 20000,
-      "milage_miles": 12427,
+      "mileage_kms": 20000,
+      "mileage_miles": 12427,
       "number_of_parts": 0
     },
     {
@@ -25,8 +25,8 @@
       "model": "Focus",
       "year": 2018,
       "vin": "3HGCM82633A789012",
-      "milage_kms": 25000,
-      "milage_miles": 15534,
+      "mileage_kms": 25000,
+      "mileage_miles": 15534,
       "number_of_parts": 0
     },
     {
@@ -35,8 +35,8 @@
       "model": "Malibu",
       "year": 2021,
       "vin": "4HGCM82633A345678",
-      "milage_kms": 10000,
-      "milage_miles": 6213,
+      "mileage_kms": 10000,
+      "mileage_miles": 6213,
       "number_of_parts": 0
     },
     {
@@ -45,8 +45,8 @@
       "model": "Sentra",
       "year": 2022,
       "vin": "5HGCM82633A987654",
-      "milage_kms": 5000,
-      "milage_miles": 3107,
+      "mileage_kms": 5000,
+      "mileage_miles": 3107,
       "number_of_parts": 0
     },
     {
@@ -55,8 +55,8 @@
       "model": "3 Series",
       "year": 2020,
       "vin": "6HGCM82633A234567",
-      "milage_kms": 18000,
-      "milage_miles": 11185,
+      "mileage_kms": 18000,
+      "mileage_miles": 11185,
       "number_of_parts": 0
     },
     {
@@ -65,8 +65,8 @@
       "model": "A4",
       "year": 2019,
       "vin": "7HGCM82633A876543",
-      "milage_kms": 22000,
-      "milage_miles": 13670,
+      "mileage_kms": 22000,
+      "mileage_miles": 13670,
       "number_of_parts": 0
     },
     {
@@ -75,8 +75,8 @@
       "model": "C-Class",
       "year": 2021,
       "vin": "8HGCM82633A543210",
-      "milage_kms": 12000,
-      "milage_miles": 7460,
+      "mileage_kms": 12000,
+      "mileage_miles": 7460,
       "number_of_parts": 0
     },
     {
@@ -85,8 +85,8 @@
       "model": "Passat",
       "year": 2018,
       "vin": "9HGCM82633A112233",
-      "milage_kms": 30000,
-      "milage_miles": 18641,
+      "mileage_kms": 30000,
+      "mileage_miles": 18641,
       "number_of_parts": 0
     },
     {
@@ -95,8 +95,8 @@
       "model": "Elantra",
       "year": 2019,
       "vin": "0HGCM82633A445566",
-      "milage_kms": 15000,
-      "milage_miles": 9320,
+      "mileage_kms": 15000,
+      "mileage_miles": 9320,
       "number_of_parts": 0
     }
   ]
