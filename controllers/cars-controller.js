@@ -34,9 +34,17 @@ const findOne = async (req, res) => {
 const carParts = async (req, res) => {
     try {
         const carParts = await knex("cars")
-            .join("car_parts", "car_parts.car_id", "cars.id")
-            .where({ car_id: req.params.id });
-            // space for knex code for selective data return (delete if not needed)
+          .join("car_parts", "car_parts.car_id", "cars.id")
+          .select(
+            "car_parts.id",
+            "car_parts.part_stock",
+            "car_parts.part_name",
+            "car_parts.price",
+            "car_parts.number_of_pieces",
+            "car_parts.created_at",
+            "car_parts.updated_at"
+          )
+          .where({ car_id: req.params.id });
         res.json(carParts);
     } catch (err) {
         res.status(500).json({
