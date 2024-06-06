@@ -6,7 +6,7 @@ const index = async (_req, res) => {
         const data = await knex("cars");
         res.status(200).json(data);
     } catch (err) {
-        res.status(400).send(`Error retrieving Cars: ${err}`);
+        res.status(400).send(`Error retrieving Cars data: ${err}`);
     }
 }
 
