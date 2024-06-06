@@ -1,9 +1,33 @@
 const knex = require('knex')(require('../knexfile'));
 
+const selectArray = [
+    // car parts data
+    "car_parts.id",
+    "car_parts.car_id",
+    "car_parts.part_stock",
+    "car_parts.part_name",
+    "car_parts.price",
+    "car_parts.number_of_pieces",
+    "car_parts.created_at",
+    "car_parts.updated_at",
+    // car data
+    "cars.car_stock",
+    "cars.make",
+    "cars.model",
+    "cars.year",
+    "cars.vin",
+    "cars.mileage_kms",
+    "cars.mileage_miles",
+    "cars.number_of_parts"
+];
+
 // get all car parts
 const index = async (_req, res) => {
     try {
-        const data = await knex("car_parts").join("cars", "cars.id", "car_parts.car_id");
+        const data = await knex("car_parts")
+            .join("cars", "cars.id", "car_parts.car_id")
+            .select(selectArray)
+            .orderBy("car_parts.id"); // fixes order being based off of cars id instead of car parts id
         res.status(200).json(data);
     } catch (err) {
         res.status(400).send(`Error retrieving Car Parts data: ${err}`);
@@ -15,7 +39,8 @@ const findOne = async (req, res) => {
     try {
         const carPartFound = await knex("car_parts")
           .join("cars", "cars.id", "car_parts.car_id")
-          .where("car_parts.id", req.params.id);
+          .where("car_parts.id", req.params.id)
+          .select(selectArray);
 
         if (carPartFound.length === 0) {
             return res.status(404).json({
