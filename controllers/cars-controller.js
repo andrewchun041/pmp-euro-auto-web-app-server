@@ -1,5 +1,26 @@
 const knex = require('knex')(require('../knexfile'));
 
+const selectArray = [
+    // car parts data
+    "car_parts.id",
+    "car_parts.car_id",
+    "car_parts.part_stock",
+    "car_parts.part_name",
+    "car_parts.price",
+    "car_parts.number_of_pieces",
+    "car_parts.created_at",
+    "car_parts.updated_at",
+    // car data
+    "cars.car_stock",
+    "cars.make",
+    "cars.model",
+    "cars.year",
+    "cars.vin",
+    "cars.mileage_kms",
+    "cars.mileage_miles",
+    "cars.number_of_parts"
+];
+
 // get all cars
 const index = async (_req, res) => {
     try {
@@ -35,15 +56,7 @@ const carParts = async (req, res) => {
     try {
         const carParts = await knex("cars")
           .join("car_parts", "car_parts.car_id", "cars.id")
-          .select(
-            "car_parts.id",
-            "car_parts.part_stock",
-            "car_parts.part_name",
-            "car_parts.price",
-            "car_parts.number_of_pieces",
-            "car_parts.created_at",
-            "car_parts.updated_at"
-          )
+          .select(selectArray)
           .where({ car_id: req.params.id });
         res.json(carParts);
     } catch (err) {
