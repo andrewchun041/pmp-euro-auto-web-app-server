@@ -5,7 +5,7 @@
 exports.up = function(knex) {
     return knex.schema.createTable('cars', function(table) {
         table.increments('id').primary(); // Primary key that auto increments
-        table.string('car_stock').notNullable(); // Example stock: C0147
+        table.string('car_stock').notNullable().unique(); // Example stock: C0147
         table.string('vin').notNullable().unique(); // Vehicle Identification Number, unique
         table.string('make').notNullable(); // Car make
         table.string('model').notNullable(); // Car model
