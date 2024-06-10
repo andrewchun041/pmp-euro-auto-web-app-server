@@ -1,0 +1,102 @@
+[
+    {
+      "car_stock": "C0147",
+      "make": "Toyota",
+      "model": "Corolla",
+      "year": 2020,
+      "vin": "1HGCM82633A123456",
+      "mileage_kms": 15000,
+      "mileage_miles": 9320,
+      "number_of_parts": 0
+    },
+    {
+      "car_stock": "C0148",
+      "make": "Honda",
+      "model": "Civic",
+      "year": 2019,
+      "vin": "2HGCM82633A654321",
+      "mileage_kms": 20000,
+      "mileage_miles": 12427,
+      "number_of_parts": 0
+    },
+    {
+      "car_stock": "C0149",
+      "make": "Ford",
+      "model": "Focus",
+      "year": 2018,
+      "vin": "3HGCM82633A789012",
+      "mileage_kms": 25000,
+      "mileage_miles": 15534,
+      "number_of_parts": 0
+    },
+    {
+      "car_stock": "C0150",
+      "make": "Chevrolet",
+      "model": "Malibu",
+      "year": 2021,
+      "vin": "4HGCM82633A345678",
+      "mileage_kms": 10000,
+      "mileage_miles": 6213,
+      "number_of_parts": 0
+    },
+    {
+      "car_stock": "C0151",
+      "make": "Nissan",
+      "model": "Sentra",
+      "year": 2022,
+      "vin": "5HGCM82633A987654",
+      "mileage_kms": 5000,
+      "mileage_miles": 3107,
+      "number_of_parts": 0
+    },
+    {
+      "car_stock": "C0152",
+      "make": "BMW",
+      "model": "3 Series",
+      "year": 2020,
+      "vin": "6HGCM82633A234567",
+      "mileage_kms": 18000,
+      "mileage_miles": 11185,
+      "number_of_parts": 0
+    },
+    {
+      "car_stock": "C0153",
+      "make": "Audi",
+      "model": "A4",
+      "year": 2019,
+      "vin": "7HGCM82633A876543",
+      "mileage_kms": 22000,
+      "mileage_miles": 13670,
+      "number_of_parts": 0
+    },
+    {
+      "car_stock": "C0154",
+      "make": "Mercedes-Benz",
+      "model": "C-Class",
+      "year": 2021,
+      "vin": "8HGCM82633A543210",
+      "mileage_kms": 12000,
+      "mileage_miles": 7460,
+      "number_of_parts": 0
+    },
+    {
+      "car_stock": "C0155",
+      "make": "Volkswagen",
+      "model": "Passat",
+      "year": 2018,
+      "vin": "9HGCM82633A112233",
+      "mileage_kms": 30000,
+      "mileage_miles": 18641,
+      "number_of_parts": 0
+    },
+    {
+      "car_stock": "C0156",
+      "make": "Hyundai",
+      "model": "Elantra",
+      "year": 2019,
+      "vin": "0HGCM82633A445566",
+      "mileage_kms": 15000,
+      "mileage_miles": 9320,
+      "number_of_parts": 0
+    }
+  ]
